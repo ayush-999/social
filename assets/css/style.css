@@ -280,7 +280,10 @@ ul li {
 .profile-edit-button,
 .profile-add-friend,
 .add-cover-photo,
-.profile-friend-sent {
+.profile-friend-sent,
+.confirm-request,
+.request-cancel,
+.request-unfriend {
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -294,14 +297,20 @@ ul li {
 .profile-edit-button:hover,
 .profile-add-friend:hover,
 .profile-friend-sent:hover,
-.add-cover-photo:hover {
+.add-cover-photo:hover,
+.confirm-request:hover,
+.request-cancel:hover,
+.request-unfriend:hover {
   background-color: #F4F4F4;
 }
 
 .profile-edit-button p,
 .profile-add-friend p,
 .profile-friend-sent p,
-.add-cover-photo p {
+.add-cover-photo p,
+.confirm-request p,
+.request-cancel p,
+.request-unfriend p {
   margin-left: 5px;
   font-size: 13px;
   font-weight: 600;
@@ -311,7 +320,10 @@ ul li {
 .profile-edit-button i,
 .profile-add-friend i,
 .profile-friend-sent i,
-.add-cover-photo i {
+.add-cover-photo i,
+.confirm-request i,
+.request-cancel i,
+.request-unfriend i {
   font-size: 12px;
 }
 
